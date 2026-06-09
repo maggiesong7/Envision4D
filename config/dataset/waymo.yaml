@@ -1,0 +1,10 @@
+name: waymo
+
+data_path: /dataset/waymo
+
+load_size: [350, 518]
+
+num_cams: 1
+num_frames: 6
+
+background_color: [0.0, 0.0, 0.0]

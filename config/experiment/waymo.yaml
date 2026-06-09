@@ -1,0 +1,18 @@
+# @package _global_
+
+defaults:
+  - override /dataset: waymo
+  - override /model/encoder: envision4d
+
+wandb:
+  name: waymo
+  tags: [waymo, 1280x1920]
+
+dataset:
+  data_path: /dataset/waymo
+
+test:
+  crop_range_h: null
+  crop_range_w: null
+  eval_time_skip_steps: 5
+  compute_scores: true

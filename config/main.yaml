@@ -1,0 +1,40 @@
+defaults:
+  - dataset: waymo
+  - model/encoder: envision4d
+  - model/decoder: splatting_cuda
+
+wandb:
+  project: envision4d
+  entity:
+  name: placeholder
+  mode: disabled
+  id: null
+
+mode: test
+
+dataset:
+  overfit_to_scene: null
+
+data_loader:
+  test:
+    num_workers: 1
+    batch_size: 1
+    seed: 2345
+
+checkpointing:
+  load: null
+
+test:
+  output_path: outputs/test
+  compute_scores: true
+  crop_range_h: [6, 6]
+  crop_range_w: [10, 6]
+  eval_time_skip_steps: 0
+  save_image: true
+  save_video: true
+  lane_shift: true
+  lane_shift_step: 0.03
+
+seed: 111123
+
+output_dir: null
