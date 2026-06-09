@@ -6,8 +6,6 @@
 
 <sup>1</sup>Tsinghua University &emsp;&emsp; <sup>2</sup>The Chinese University of Hong Kong, Shenzhen
 
-<br>
-
 ### [📄 Paper](https://maggiesong7.github.io/research/Envision4D/) &nbsp;|&nbsp; [🌐 Project Page](https://maggiesong7.github.io/research/Envision4D/) &nbsp;|&nbsp; [📦 Pretrained Models](https://drive.google.com/drive/folders/1gi5AZU6ljWNFqnf2Z3ZciC3YZDT-rpOk?usp=sharing)
 
 </div>
