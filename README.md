@@ -19,7 +19,7 @@ Envision4D is a novel self-supervised 4DGS model capable of dynamic scene extrap
 
 
 ## Installation
-To get started, clone this project, create a conda virtual environment, and install the requirements:
+Please clone this project, create a conda virtual environment, and install the requirements:
 
 ```bash
 conda create -n envision4d python=3.10
