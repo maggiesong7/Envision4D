@@ -11,7 +11,7 @@
 </div>
 
 ## Introduction
-Envision4D focuses on the task of future scene extrapolation in autonomous driving, specifically in a future pose-free manner without requiring any explicit motion guidance. By eliminating the reliance on future camera poses and heavily preprocessed motion priors, Envision4D offers a practical framework capable of directly handling uncalibrated, in-the-wild data.
+Envision4D focuses on the task of future scene extrapolation in autonomous driving, specifically in a future pose-free manner without requiring any extra motion guidance. By eliminating the reliance on future camera poses and heavily preprocessed motion priors, Envision4D offers a practical framework capable of directly handling uncalibrated, in-the-wild data.
 
 <div align="center">
   <img src="figs/teaser.png"/>
