@@ -40,16 +40,19 @@ To get started, simply update your dataset path in `config/experiment/waymo.yaml
 python -m src.main +experiment=waymo checkpointing.load=[ckpt_path] mode=test 
 ```
 
-<!-- ## Citation
+## Citation
 
 If you find this project useful for your research, please consider citing: 
 
 ```bibtex   
-@article{song2025adgaussian,
-  title={ADGaussian: Generalizable Gaussian Splatting for Autonomous Driving with Multi-modal Inputs},
-  author={Song, Qi and Li, Chenghong and Lin, Haotong and Peng, Sida and Huang, Rui},
-  journal={arXiv preprint arXiv:2504.00437},
-  year={2025}
+@misc{song2026envision4denvisioningvisualfutures,
+      title={Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving}, 
+      author={Qi Song and Yifei He and Chi Zhang and Zheng Fu and Xuhe Zhao and Mengmeng Yang and Kun Jiang and Rui Huang and Diange Yang},
+      year={2026},
+      eprint={2606.10656},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.10656}, 
 }
-``` -->
+```
 
