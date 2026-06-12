@@ -45,14 +45,11 @@ python -m src.main +experiment=waymo checkpointing.load=[ckpt_path] mode=test
 If you find this project useful for your research, please consider citing: 
 
 ```bibtex   
-@misc{song2026envision4denvisioningvisualfutures,
-      title={Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving}, 
-      author={Qi Song and Yifei He and Chi Zhang and Zheng Fu and Xuhe Zhao and Mengmeng Yang and Kun Jiang and Rui Huang and Diange Yang},
-      year={2026},
-      eprint={2606.10656},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2606.10656}, 
+@article{song2026envision4d,
+  title={Envision4D: Envisioning Visual Futures via Feed-forward 4D Gaussian Splatting for Autonomous Driving},
+  author={Song, Qi and He, Yifei and Zhang, Chi and Fu, Zheng and Zhao, Xuhe and Yang, Mengmeng and Jiang, Kun and Huang, Rui and Yang, Diange},
+  journal={arXiv preprint arXiv:2606.10656},
+  year={2026}
 }
 ```
 
